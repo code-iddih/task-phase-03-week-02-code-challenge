@@ -17,7 +17,7 @@ def test_coffee_order_count():
     # Creating a customer instance with a valid name
     customer = Customer("Eric")
     # Creating an order for the customer
-    customer.create_order(coffee, 3.5)  # Customer orders an Espresso for $3.5
+    customer.create_order(coffee, 3.5) 
     # Checking the number of orders again
     assert coffee.count_orders() == 1  # It should now be 1
 

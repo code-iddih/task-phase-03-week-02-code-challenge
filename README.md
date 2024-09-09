@@ -29,9 +29,9 @@ coffee_shop/\
 ├── Pipfile.lock\
 ├── README.md\
 └── tests/\
-    ├──    *test_customer.py\
-    ├──    * test_coffee.py\
-    └──    * test_order.py
+    ├──    -test_customer.py\
+    ├──    -test_coffee.py\
+    └──    -test_order.py
 
 ## Project Structure
 

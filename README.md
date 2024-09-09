@@ -20,7 +20,7 @@ An *Order* belongs to one *Customer* and one *Coffee*.
 
 ## Project Structure
 
-coffee_shop/
+coffee_shop/\
 ├── customer.py\
 ├── coffee.py\
 ├── order.py\
@@ -28,10 +28,10 @@ coffee_shop/
 ├── Pipfile\
 ├── Pipfile.lock\
 ├── README.md\
-└── tests/
-    ├── test_customer.py\
-    ├── test_coffee.py\
-    └── test_order.py
+└── tests/\
+    ├──     test_customer.py\
+    ├──     test_coffee.py\
+    └──     test_order.py
 
 
 ## Project Structure

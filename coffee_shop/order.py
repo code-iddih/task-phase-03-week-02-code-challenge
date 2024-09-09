@@ -19,15 +19,14 @@ class Order:
         self.price = price
 
         # Adding this order to both coffee's and customer's order lists
-        coffee.orders().append(self)
-        customer.orders().append(self)
+        coffee.orders.append(self)
+        customer.orders.append(self)
 
     def __repr__(self):
-        # Returning Customer's Name , Coffee's nName and Price
+        # Returning Customer's Name, Coffee's Name and Price
         return (
             f"Order("
             f"customer={self.customer.name}, "
             f"coffee={self.coffee.name}, "
             f"price={self.price})"
         )
-
